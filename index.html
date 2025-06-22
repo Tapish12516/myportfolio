@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.ts</title>
+    <link rel="stylesheet" href="website2css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>		
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="logo">.ts</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Tapish Singhal</span></h1>
+                <p>A passionate Web Developer | Designer | Creator</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="profile.jpg" src="https://via.placeholder.com/150" alt="Your Profile Picture" class="profile-pic">
+                    <p>
+                        Hello! I'm Tapish Singhal, a student with a passion for building beautiful and functional web applications.
+                        I have a little specialization in html and c++.<!--[mention your primary skills, e.g., front-end development with React, full-stack development with Node.js and MongoDB].-->
+                        My journey in web development began just experimentally. I love turning ideas into reality
+                        and constantly learning new technologies to improve my craft.
+                    </p>
+                    <p>
+                        Outside of coding, I enjoy listening music and playing cricket.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-code"></i>
+                        <p>C++</p>
+					</div>
+                    <!-- 
+					<div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <p>Node.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                    </div>
+            </div>
+			-->
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>A brief description of Project One, highlighting technologies used (e.g., React, Express, MongoDB).</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>A brief description of Project Two, highlighting technologies used (e.g., Vue.js, Firebase).</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                        <h3>Project Three</h3>
+                        <p>A brief description of Project Three, highlighting technologies used (e.g., HTML, CSS, JavaScript).</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out!</p>
+                <form class="contact-form" action="https://formsubmit.co/tapishjarh@gamil.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tapish Singhal. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tapish-singhal-61aba5320" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Tapish12516" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/tapish12516" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scriptwebsite2	.js"></script>
+</body>
+</html>
